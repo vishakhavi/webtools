@@ -1,0 +1,6 @@
+ul.animals {
+    border:  1px solid blue;
+}
+.list {
+    list-style-type : "\1F431"
+}

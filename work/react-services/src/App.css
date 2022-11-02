@@ -1,0 +1,52 @@
+.content {
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 3px solid green;
+    position: relative;
+}
+
+.stored-content {
+    width: 280px;
+    height: 100px;
+    background-color: beige;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.logged-in__username {
+    color: #fff !important;
+    background-color: #f44336 !important;
+    padding: 8px 16px;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.add__form {
+    display: flex;
+    flex-direction: column;
+}

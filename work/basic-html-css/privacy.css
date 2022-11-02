@@ -1,0 +1,8 @@
+.content::first-letter {
+    font-size: 150%;
+    line-height: 1.6;
+ }
+
+.back a {
+    text-decoration: none;
+}

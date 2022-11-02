@@ -1,0 +1,203 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border: 2px solid #ddd;
+}
+
+.login {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-areas: "users messages" "outgoing outgoing";
+    grid-template-rows: 1fr auto;
+    margin: auto;
+    background: whitesmoke;
+    margin-top: 30px;
+    background-image: url('./forum_discussion.jpg');
+    min-height: 500px;
+    max-width: fit-content;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login__button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.legend {
+    position: relative;
+    width: 100%;
+    display: block;
+    padding: 15px;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.add__button,
+.controls__refresh,
+.controls__logout {
+    margin-left: 10px;
+    background: rgb(39, 76, 132);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add__form {
+    display: flex;
+    padding: 10px;
+    border-top: 2px solid #ddd;
+    background: #eee;
+    margin: 40px;
+    width: 50%;
+}
+
+.add__topic {
+    flex: 1;
+    background: #ddd;
+}
+
+.container {
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topic {
+    list-style: none;
+}
+
+.vote__count {
+    color: #bc1534;
+    font-weight: bold;
+}
+
+.app__header {
+    background-color: rgb(0, 78, 196);
+    padding: 13px;
+    height: 52px;
+    border-radius: 5px;
+}
+
+.app__header--content {
+    width: 80%;
+    float: left;
+    color: white;
+    margin-top: 4px;
+}
+
+.app__username {
+    float: right;
+}
+
+.controls {
+    float: right;
+}
+
+.topic {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(167, 199, 229);
+    margin-bottom: 10px;
+    min-height: 130px;
+    border-radius: 8px;
+}
+
+.topic__label {
+    width: 80%;
+}
+
+.topic__buttons {
+    padding-left: 40px;
+    padding-top: 18px;
+}
+
+.add__button {
+    width: 20%
+}
+
+.app__logo {
+    width: 32px;
+    float: left;
+    margin-right: 5px;
+    border-radius: 15px;
+}
+
+.avatar {
+    height: 2rem;
+}
+
+.topic__heading {
+    color: rgb(0, 78, 196);
+    padding-left: 32px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.topic__details,
+.post__details {
+    color: gray;
+    font-style: italic;
+    font-size: small;
+}
+
+.posts {
+    margin-left: 30px;
+}
+
+.posts .comments {
+    display: flex;
+}
+
+.gg-arrow-long-up,
+.gg-arrow-long-down {
+    height: 12px;
+}
+
+.comment-voting {
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+
+/* .topic__upvote,
+.topic__downvote {
+    scale: 1.2;
+    padding-right: 10px;
+} */

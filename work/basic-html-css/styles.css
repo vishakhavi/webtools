@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+header,footer {
+    padding: 20px;
+    background: #ddd;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+footer a {
+    text-decoration: none;
+}
